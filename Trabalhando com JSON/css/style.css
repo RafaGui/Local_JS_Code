@@ -1,50 +1,35 @@
-
-/* || general styles */
-
-html {
-    font-family: 'helvetica neue', helvetica, arial, sans-serif;
-  }
-  
-  body {
-    width: 800px;
-    margin: 0 auto;
-  }
-  
-  h1, h2 {
-    font-family: 'Faster One', cursive;
-  }
-  
-  /* header styles */
-  
-  h1 {
-    font-size: 4rem;
-    text-align: center;
-  }
-  
-  header p {
-    font-size: 1.3rem;
-    font-weight: bold;
-    text-align: center;
-  }
-  
-  /* section styles */
-  
-  section article {
-    width: 33%;
-    float: left;
-  }
-  
-  section p {
-    margin: 5px 0;
-  }
-  
-  section ul {
-    margin-top: 0;
-  }
-  
-  h2 {
-    font-size: 2.5rem;
-    letter-spacing: -5px;
-    margin-bottom: 10px;
-  }
-  
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{
+  font-family: monospace;
+  padding: 1rem;
+  color: #2020208a;
+  text-transform: uppercase;
+}
+.dados{
+  width: 100%;
+  max-width: 400px;
+}
+.set-block{
+  background-color: #ddd;
+  list-style: none;
+  padding: 1rem;
+  text-transform: uppercase;
+}
+.set-block h3{
+  font-size: 1rem;
+  color: royalblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+  padding: 1rem;
+}
+.set-block p{
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  padding: .3rem 1rem;
+  font-size: .8rem;
+  color: #2020208a;
+}

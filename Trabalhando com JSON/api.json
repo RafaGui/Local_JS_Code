@@ -1,0 +1,19 @@
+{
+    "usuarios":[
+       {
+          "nome":"Rafael William",
+          "idade":23,
+          "nacionalidade": "brasileiro"
+       },
+       {
+          "nome":"William Souza",
+          "idade":20,
+          "nacionalidade": "Portugues"
+       },
+       {
+          "nome":"Ivo Gui",
+          "idade":30,
+          "nacionalidade": "Estadunidense"
+       }
+    ]
+ }

@@ -1,9 +1,17 @@
-const Pessoa = require('./api/api')
+var nome = "Rafael William";
+var idade = 23;
 
-const exibeDados = (nome, idade) => {
-    console.log(`Olá ${nome}, você tem ${idade} anos de idade`);
+var empresa = {
+    nome: "Nerd Web Store",
+    cidade: "Florianopolis",
+    site: "www.nerdwebstore.com.br",
+    email: "seila@gmail.com"
 }
-const nome = Pessoa.nome;
-const idade = Pessoa.idade;
 
-exibeDados(nome, idade);
+var user = {
+    nome, 
+    idade,
+    ...empresa
+}
+
+console.log(user);
