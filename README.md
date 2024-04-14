@@ -1,2 +1,2 @@
-# Local_JS_Code
+# Javascript Codes
 Codes shared between my computers
